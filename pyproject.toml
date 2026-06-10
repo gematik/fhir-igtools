@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "reqtools"
+dynamic = ["version"]
+description = "FHIR IG Tool"
+authors = [{ name = "Ronald Martins", email = "ronald.martins@gematik.de" }]
+license = { file = "LICENSE" }
+dependencies = [
+    "beautifulsoup4==4.12.3",
+    "PyYAML==6.0.2",
+    "requests==2.32.3",
+    "packaging==25.0"
+]
+
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0"
+]
+
+
+[project.scripts]
+igtools = "reqtools.main:main"
+reqtools = "reqtools.main:main"
+
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+
+[tool.setuptools.package-data]
+reqtools = ["mappings/*.yaml"]
+
+
+[tool.setuptools.dynamic]
+version = { attr = "reqtools.versioning.__VERSION__" }
+
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "-ra -q --tb=short"
+testpaths = [
+    "tests"
+]
+

@@ -1,0 +1,953 @@
+actor_to_product:
+  MEDICATIONSVC:
+    name: EPA-Medication-Service
+    id: productType161
+    description: EPA-Medication-Service
+  AUDITSVC:
+    name: EPA-Audit-Service
+    id: productType160
+    description: EPA-Audit-Service
+  MHDSVC:
+    name: EPA-MHD-Service
+    id: productType163
+    description: EPA-MHD-Service
+  PATSVC:
+    name: EPA-Patient-Service
+    id: productType162
+    description: EPA-Patient-Service
+  SUP-EPA:
+    name: Anb_Aktensystem_ePA
+    id: supplier14
+    description: Anbieter eines ePA-Aktensystems
+  EPA-XDS-Document-Service:
+    name: EPA-XDS-Document-Service
+    id: productType173
+    description: EPA-XDS-Document-Service
+  XDSSVC:
+    name: Aktensystem_ePA
+    id: productType79
+    description: ePA - Aktensystem
+  EPA-Health-Record-Relocation-Service:
+    name: EPA-Health-Record-Relocation-Service
+    id: productType169
+    description: EPA-Health-Record-Relocation-Service
+  HRRSVC:
+    name: Aktensystem_ePA
+    id: productType79
+    description: ePA - Aktensystem
+  EPA-Consent-Decision-Management:
+    name: EPA-Consent-Decision-Management
+    id: productType170
+    description: EPA-Consent-Decision-Management
+  CDMGMT:
+    name: Aktensystem_ePA
+    id: productType79
+    description: ePA - Aktensystem
+  EPA-Constraint-Management:
+    name: EPA-Constraint-Management
+    id: productType165
+    description: EPA-Constraint-Management
+  CONMGMT:
+    name: Aktensystem_ePA
+    id: productType79
+    description: ePA - Aktensystem
+  EPA-Entitlement-Management:
+    name: EPA-Entitlement-Management
+    id: productType171
+    description: EPA-Entitlement-Management
+  ENTITMGMT:
+    name: Aktensystem_ePA
+    id: productType79
+    description: ePA - Aktensystem
+  EPA-Push-Notification-Management:
+    name: EPA-Push-Notification-Management
+    id: productType172
+    description: EPA-Push-Notification-Management
+  PUSHNOTMGMT:
+    name: Aktensystem_ePA
+    id: productType79
+    description: ePA - Aktensystem
+  DEVICEMGMT:
+    name: Aktensystem_ePA
+    id: productType79
+    description: ePA - Aktensystem
+  EPA-PS:
+    name: PS_ePA
+    id: productType109
+    description: ePA-Schnittstelle eines PS
+  EPA-FdV:
+    name: Frontend_Vers_ePA
+    id: productType80
+    description: ePA - Frontend des Versicherten
+  EPA-CS-KTR:
+    name: CS_ePA_KTR
+    id: productType128
+    description: 'Clientsystem-Schnittstelle ePA: Kostenträger'
+  EPA-CS-Ombudsstelle:
+    name: CS_ePA_Ombudsstelle
+    id: productType129
+    description: 'Clientsystem-Schnittstelle ePA: Ombudsstelle'
+  EPA-PS-APO:
+    name: PS_ePA_Apotheke
+    id: productType131
+    description: 'Primärsystem-Schnittstelle ePA: Apotheke'
+  EPA-DIGA:
+    name: CS_ePA_DiGA
+    id: productType130
+    description: 'Clientsystem-Schnittstelle ePA: DiGA'
+  ERP:
+    name: eRp_FD
+    id: productType87
+    description: E-Rezept-Fachdienst
+  ERP-PS-AB:
+    name: PS_E-Rezept_abgebend
+    id: productType98
+    description: E-Rezept-Schnittstelle eines abgebenden PS (Apotheke)
+  ERP-PS-VER:
+    name: PS_E-Rezept_verordnend
+    id: productType99
+    description: E-Rezept-Schnittstelle eines verordnenden PS (Leistungserbringer)
+  ERP-CS-KTR:
+    name: CS_E-Rezept_KTR
+    id: productType136
+    description: CS-Schnittstelle für E-Rezept/Kostenträger
+  SUP-ERP:
+    name: Anb_eRp_FD
+    id: supplier22
+    description: Anbieter des E-Rezept-Fachdienstes
+  VSDM:
+    name: VSDM_2_FD
+    id: productType138
+    description: Fachdienst VSDM 2.0
+  SUP-VSDM:
+    name: Anb_VSDM_2_FD
+    id: supplier51
+    description: Anbieter Fachdienst VSDM 2.0
+  VSDM-Client:
+    name: CS_VSDM_2
+    id: productType147
+    description: CS-Schnittstelle für VSDM 2
+  MobKT:
+    name: MobKT
+    id: productType06
+    description: mobiles Kartenterminal
+  KT:
+    name: KT
+    id: productType07
+    description: eHealth-Kartenterminal
+  OCSP-Proxy:
+    name: OCSP-Proxy
+    id: productType09
+    description: OCSP-Proxy
+  TSP X.509 QES:
+    name: TSP X.509 QES
+    id: productType10
+    description: Trust Service Provider X.509 QES
+  TSL-Dienst:
+    name: TSL-Dienst
+    id: productType13
+    description: TSL-Dienst
+  TSP-CVC:
+    name: TSP-CVC
+    id: productType14
+    description: Trust Service Provider CVC
+  gematik Root-CA:
+    name: gematik Root-CA
+    id: productType16
+    description: gematik Root-CA
+  Konfigdienst:
+    name: Konfigdienst
+    id: productType17
+    description: Konfigurationsdienst
+  Zeitdienst:
+    name: Zeitdienst
+    id: productType19
+    description: Zeitdienst
+  Namensdienst:
+    name: Namensdienst
+    id: productType20
+    description: Namensdienst
+  SG_BestNetze:
+    name: SG_BestNetze
+    id: productType21
+    description: Sicherheits-Gateway für Bestandsnetze
+  Zugangsdienst:
+    name: Zugangsdienst
+    id: productType22
+    description: VPN-Zugangsdienst
+  Zentrales-Netz:
+    name: Zentrales-Netz
+    id: productType23
+    description: Zentrales-Netz
+  Verzeichnisdienst:
+    name: Verzeichnisdienst
+    id: productType24
+    description: Verzeichnisdienst (LDAP)
+  KOM-LE CM:
+    name: KOM-LE CM
+    id: productType25
+    description: KIM-Clientmodul
+  KOM-LE FD:
+    name: KOM-LE FD
+    id: productType26
+    description: KIM-Fachdienst
+  FM_VSDM:
+    name: FM_VSDM
+    id: productType27
+    description: Fachmodul VSDM (im Konnektor)
+  Intermediär VSDM:
+    name: Intermediär VSDM
+    id: productType28
+    description: Intermediär
+  UFS:
+    name: UFS
+    id: productType29
+    description: Update Flag Service
+  VSDD:
+    name: VSDD
+    id: productType30
+    description: Versichertenstammdaten-Dienst
+  CMS:
+    name: CMS
+    id: productType31
+    description: Card Management Service
+  FM_MOBKT_VSDM:
+    name: FM_MOBKT_VSDM
+    id: productType32
+    description: Fachmodul VSDM (im mobilen Kartenterminal)
+  FM AMTS:
+    name: FM AMTS
+    id: productType33
+    description: Fachmodul AMTS (im Konnektor)
+  FM_NFDM:
+    name: FM_NFDM
+    id: productType38
+    description: Fachmodul NFDM (im Konnektor)
+  TSP X.509 nonQES - eGK:
+    name: TSP X.509 nonQES - eGK
+    id: productType40
+    description: Trust Service Provider X.509 (nonQES) – eGK
+  TSP X.509 nonQES - HBA:
+    name: TSP X.509 nonQES - HBA
+    id: productType41
+    description: Trust Service Provider X.509 (nonQES) – HBA
+  TSP X.509 nonQES - SMC-B:
+    name: TSP X.509 nonQES - SMC-B
+    id: productType42
+    description: Trust Service Provider X.509 (nonQES) – SMC-B
+  TSP X.509 nonQES - gSMC:
+    name: TSP X.509 nonQES - gSMC
+    id: productType43
+    description: Trust Service Provider X.509 (nonQES) – Komp
+  CVC-Root - ECC:
+    name: CVC-Root - ECC
+    id: productType45
+    description: CVC-Root – ECC
+  gSMC-K_G2_ObjSys:
+    name: gSMC-K_G2_ObjSys
+    id: productType49
+    description: Objektsystem der gSMC-K - Generation 2.0 (Konnektor)
+  gSMC-K_G2_Pers:
+    name: gSMC-K_G2_Pers
+    id: productType54
+    description: Personalisierung gSMC-K - Generation 2.0 (Konnektor)
+  eGK_G2.1_ObjSys:
+    name: eGK_G2.1_ObjSys
+    id: productType59
+    description: Objektsystem der eGK - Generation 2.1
+  HBA_G2.1_ObjSys:
+    name: HBA_G2.1_ObjSys
+    id: productType60
+    description: Objektsystem des HBA - Generation 2.1
+  SMC-B_G2.1_ObjSys:
+    name: SMC-B_G2.1_ObjSys
+    id: productType61
+    description: Objektsystem der SMC-B - Generation 2.1
+  gSMC-KT_G2.1_ObjSys:
+    name: gSMC-KT_G2.1_ObjSys
+    id: productType63
+    description: Objektsystem der gSMC-KT - Generation 2.1 (Kartenterminal)
+  eGK_G2.1_Pers:
+    name: eGK_G2.1_Pers
+    id: productType64
+    description: Personalisierung eGK - Generation 2.1
+  HBA_G2.1_Pers:
+    name: HBA_G2.1_Pers
+    id: productType65
+    description: Personalisierung HBA - Generation 2.1
+  SMC-B_G2.1_Pers:
+    name: SMC-B_G2.1_Pers
+    id: productType66
+    description: Personalisierung SMC-B - Generation 2.1
+  gSMC-KT_G2.1_Pers:
+    name: gSMC-KT_G2.1_Pers
+    id: productType68
+    description: Personalisierung gSMC-KT - Generation 2.1 (Kartenterminal)
+  COS_G2.1:
+    name: COS_G2.1
+    id: productType69
+    description: Card Operating System - alle Generationen
+  Konnektor PTV5:
+    name: Konnektor PTV5
+    id: productType91
+    description: Konnektor PTV5 (inkl. Fachmodule)
+  Anb_HBA:
+    name: Anb_HBA
+    id: supplier02
+    description: Anbieter eines HBA
+  FM_ePA:
+    name: FM_ePA
+    id: productType78
+    description: Fachmodul ePA (im Konnektor)
+  Aktensystem_ePA:
+    name: Aktensystem_ePA
+    id: productType79
+    description: ePA - Aktensystem
+  Frontend_Vers_ePA:
+    name: Frontend_Vers_ePA
+    id: productType80
+    description: ePA - Frontend des Versicherten
+  Anb_FD_VSDM:
+    name: Anb_FD_VSDM
+    id: supplier01
+    description: Anbieter der VSDM-Fachdienste (UFS, VSDD, CMS)
+  Anb_SMC-B:
+    name: Anb_SMC-B
+    id: supplier03
+    description: Anbieter einer SMC-B
+  Anb_VPN_ZugD:
+    name: Anb_VPN_ZugD
+    id: supplier04
+    description: Anbieter eines VPN-Zugangsdienstes
+  Anb_ZD:
+    name: Anb_ZD
+    id: supplier06
+    description: Anbieter der zentralen Plattform-Dienste
+  Anb_FD_KOM-LE:
+    name: Anb_FD_KOM-LE
+    id: supplier07
+    description: Anbieter eines KIM-Fachdienstes
+  Anb_X.509_TSP_eGK:
+    name: Anb_X.509_TSP_eGK
+    id: supplier08
+    description: Anbieter X.509 TSPs für eGK
+  Anb_CVC_TSP_eGK:
+    name: Anb_CVC_TSP_eGK
+    id: supplier09
+    description: Anbieter CVC TSPs für eGK
+  Anb_CVC_Root:
+    name: Anb_CVC_Root
+    id: supplier11
+    description: Anbieter CVC Root elektronische Gesundheitskarte
+  Anw_aAdG-NetG:
+    name: Anw_aAdG-NetG
+    id: supplier13
+    description: WANDA Basic / Andere Anwendungen des Gesundheitswesens ohne Zugriff
+      auf Dienste der TI in angeschlossenen Netzen des Gesundheitswesens
+  Anw_aAdG_aAdG-NetG-TI:
+    name: Anw_aAdG_aAdG-NetG-TI
+    id: supplier12
+    description: WANDA Smart / Andere Anwendungen des Gesundheitswesens,  Andere Anwendungen
+      des Gesundheitswesens mit Zugriff auf Dienste der TI aus angeschlossenen Netzen
+      des Gesundheitswesens
+  Anb_Aktensystem_ePA:
+    name: Anb_Aktensystem_ePA
+    id: supplier14
+    description: Anbieter eines ePA-Aktensystems
+  PS:
+    name: PS
+    id: system09
+    description: Primärsystem (Schnittstelle zur TI)
+  Basis-Consumer:
+    name: Basis-Consumer
+    id: productType81
+    description: Basis-Consumer
+  Anb_Basis-Consumer:
+    name: Anb_Basis-Consumer
+    id: supplier15
+    description: Anbieter eines Basis-Consumers
+  SigD:
+    name: SigD
+    id: productType83
+    description: Signaturdienst
+  Anb_SigD:
+    name: Anb_SigD
+    id: supplier17
+    description: Anbieter eines Signaturdienstes
+  SGD_ePA:
+    name: SGD_ePA
+    id: productType84
+    description: ePA-Signaturdienst
+  Anb_SGD_ePA:
+    name: Anb_SGD_ePA
+    id: supplier18
+    description: Anbieter eines ePA-Signaturdienstes
+  Anb_AS:
+    name: Anb_AS
+    id: supplier21
+    description: Anbieter eines Anschlusspunktes
+  eRp_FD:
+    name: eRp_FD
+    id: productType87
+    description: E-Rezept-Fachdienst
+  Anb_eRp_FD:
+    name: Anb_eRp_FD
+    id: supplier22
+    description: Anbieter des E-Rezept-Fachdienstes
+  eRp_FdV:
+    name: eRp_FdV
+    id: productType88
+    description: E-Rezept-Frontend des Versicherten
+  Anb_eRp_FdV:
+    name: Anb_eRp_FdV
+    id: supplier23
+    description: Anbieter des E-Rezept-Frontends des Versicherten
+  IDP-D:
+    name: IDP-D
+    id: productType90
+    description: Identity Provider-Dienst
+  Anb_IDP-D:
+    name: Anb_IDP-D
+    id: supplier24
+    description: Anbieters des Identity Provider-Dienstes
+  eRp_AdV:
+    name: eRp_AdV
+    id: productType95
+    description: E-Rezept-Anwendungen des Versicherten
+  Anb_AuthModul-IDP:
+    name: Anb_AuthModul-IDP
+    id: supplier26
+    description: Anbieter eines IDP-Authenticator-Moduls
+  AuthModul-IDP:
+    name: AuthModul-IDP
+    id: productType96
+    description: IDP-Authenticator-Modul
+  Anb_eRp_HD_Vers:
+    name: Anb_eRp_HD_Vers
+    id: supplier27
+    description: Anbieter des E-Rezept Helpdesks für Versicherte
+  Anb_eRp_AdV:
+    name: Anb_eRp_AdV
+    id: supplier28
+    description: Anbieter der E-Rezept - Anwendungen des Versicherten
+  Anb_SMC-B_Option_HSM:
+    name: Anb_SMC-B_Option_HSM
+    id: supplier29
+    description: Anbieter der Option HSM für SMC-B
+  PS_E-Rezept_abgebend:
+    name: PS_E-Rezept_abgebend
+    id: productType98
+    description: E-Rezept-Schnittstelle eines abgebenden PS (Apotheke)
+  PS_E-Rezept_verordnend:
+    name: PS_E-Rezept_verordnend
+    id: productType99
+    description: E-Rezept-Schnittstelle eines verordnenden PS (Leistungserbringer)
+  KIM-iCM:
+    name: KIM-iCM
+    id: productType104
+    description: KIM-Clientmodul, im PS integriert
+  Konnektor Highspeed:
+    name: Konnektor Highspeed
+    id: productType105
+    description: Highspeed Konnektor (HSK)
+  Anb_Konn_Highspeed:
+    name: Anb_Konn_Highspeed
+    id: supplier32
+    description: Anbieter eines Highspeed Konnektors (HSK)
+  TIM_FD:
+    name: TIM_FD
+    id: productType106
+    description: TI-Messenger-Fachdienst
+  Anb_TIM_FD:
+    name: Anb_TIM_FD
+    id: supplier33
+    description: Anbieter eines TI-Messenger-Fachdienstes
+  TIM_Client:
+    name: TIM_Client
+    id: productType107
+    description: TI-Messenger-Client
+  Anb_TIM_Client:
+    name: Anb_TIM_Client
+    id: supplier34
+    description: Anbieter eines TI-Messenger-Clients
+  VZD_FHIR:
+    name: VZD_FHIR
+    id: productType108
+    description: Verzeichnisdienst (FHIR)
+  Anb_VZD_FHIR:
+    name: Anb_VZD_FHIR
+    id: supplier35
+    description: Anbieter eines Verzeichnisdienstes (FHIR)
+  PS_ePA:
+    name: PS_ePA
+    id: productType109
+    description: ePA-Schnittstelle eines PS
+  IDP-Sek:
+    name: IDP-Sek
+    id: productType110
+    description: Sektoraler Identity Provider
+  Anw_aAdG_aAdG-NetG-TI_Host:
+    name: Anw_aAdG_aAdG-NetG-TI_Host
+    id: supplier37
+    description: WANDA Smart Hosting
+  NCPeH_FD:
+    name: NCPeH_FD
+    id: productType111
+    description: NCPeH-Fachdienst
+  Anb_NCPeH_FD:
+    name: Anb_NCPeH_FD
+    id: supplier38
+    description: Anbieter eines NCPeH-Fachdienstes
+  IDP_FedMaster:
+    name: IDP_FedMaster
+    id: productType112
+    description: Identity Provider - Federation Master
+  Anb_IDP_FedMaster:
+    name: Anb_IDP_FedMaster
+    id: supplier39
+    description: Anbieter des Identity Provider - Federation Masters
+  OAuth-Server:
+    name: OAuth-Server
+    id: productType113
+    description: IDP-Authenticator-Server
+  Konnektor PTV5Plus:
+    name: Konnektor PTV5Plus
+    id: productType114
+    description: Basis-Konnektor PTV5Plus (ohne Fachmodule)
+  Konnektor Option LZV:
+    name: Konnektor Option LZV
+    id: productType116
+    description: Konnektor-Option Laufzeitverlängerung (LZV)
+  TI_GW_Zugangsmodul:
+    name: TI_GW_Zugangsmodul
+    id: productType117
+    description: TI-Gateway-Zugangsmodul
+  Anb_TI_Gateway:
+    name: Anb_TI_Gateway
+    id: supplier41
+    description: Anbieter eines TI-Gateway-Zugangsmoduls
+  PoPP_Service:
+    name: PoPP_Service
+    id: productType118
+    description: Proof-of-Patient-Presence Service
+  Anb_PoPP_Service:
+    name: Anb_PoPP_Service
+    id: supplier42
+    description: Anbieter Proof-of-Patient-Presence Service
+  Anb_IDP-Sek_KTR:
+    name: Anb_IDP-Sek_KTR
+    id: supplier43
+    description: Anbieter eines Sektoralen IDP für Kostenträger
+  Konnektor PTV6:
+    name: Konnektor PTV6
+    id: productType119
+    description: Konnektor PTV6 (inkl. Fachmodule)
+  Anw_DiGA:
+    name: Anw_DiGA
+    id: supplier45
+    description: Anwendung Digitale Gesundheitsanwendung
+  TI-M_Client_ePA:
+    name: TI-M_Client_ePA
+    id: productType125
+    description: TI-Messenger Client ePA
+  TI-M_FD_ePA:
+    name: TI-M_FD_ePA
+    id: productType126
+    description: TI-Messenger Fachdienst ePA
+  eHealth-CardLink:
+    name: eHealth-CardLink
+    id: productType127
+    description: eHealth-CardLink
+  Anb_eHealth-CardLink:
+    name: Anb_eHealth-CardLink
+    id: supplier46
+    description: Anbieter eHealth-CardLink
+  CS_ePA_KTR:
+    name: CS_ePA_KTR
+    id: productType128
+    description: 'Clientsystem-Schnittstelle ePA: Kostenträger'
+  CS_ePA_Ombudsstelle:
+    name: CS_ePA_Ombudsstelle
+    id: productType129
+    description: 'Clientsystem-Schnittstelle ePA: Ombudsstelle'
+  Herst_FdV:
+    name: Herst_FdV
+    id: supplier47
+    description: Hersteller Frontend des Versicherten
+  CS_ePA_DiGA:
+    name: CS_ePA_DiGA
+    id: productType130
+    description: 'Clientsystem-Schnittstelle ePA: DiGA'
+  PS_ePA_Apotheke:
+    name: PS_ePA_Apotheke
+    id: productType131
+    description: 'Primärsystem-Schnittstelle ePA: Apotheke'
+  TI-M_Client_Pro:
+    name: TI-M_Client_Pro
+    id: productType132
+    description: TI-Messenger Client Pro
+  TI-M_FD_Pro:
+    name: TI-M_FD_Pro
+    id: productType133
+    description: TI-Messenger Fachdienst Pro
+  TI-M_Client_Basis:
+    name: TI-M_Client_Basis
+    id: productType134
+    description: TI-Messenger Client Basis
+  TI-M_FD_Basis:
+    name: TI-M_FD_Basis
+    id: productType135
+    description: TI-Messenger Fachdienst Basis
+  Anb_Integ_DiGA:
+    name: Anb_Integ_DiGA
+    id: supplier48
+    description: Anbieter DiGA-Integrator in die Telematikinfrastruktur
+  digi_ID_OGR:
+    name: digi_ID_OGR
+    id: supplier49
+    description: Digitale Identitäten Organ- und Gewebespenderegister
+  CS_E-Rezept_KTR:
+    name: CS_E-Rezept_KTR
+    id: productType136
+    description: CS-Schnittstelle für E-Rezept/Kostenträger
+  extZug_VZD:
+    name: extZug_VZD
+    id: supplier50
+    description: externer Zugang zum VZD (FHIR)
+  VSDM_2_FD:
+    name: VSDM_2_FD
+    id: productType138
+    description: Fachdienst VSDM 2.0
+  Anb_VSDM_2_FD:
+    name: Anb_VSDM_2_FD
+    id: supplier51
+    description: Anbieter Fachdienst VSDM 2.0
+  extNutz_TI-Dienste_allg:
+    name: extNutz_TI-Dienste_allg
+    id: supplier52
+    description: externe Nutzung von Plattformdiensten und Anwendungen der TI (PAT)
+      - allgemeiner Teil
+  extNutz_GID:
+    name: extNutz_GID
+    id: supplier53
+    description: externe Nutzung der Gesundheits-ID - spezif. Teil
+  extNutz_Authenticator:
+    name: extNutz_Authenticator
+    id: supplier54
+    description: externe Nutzung des Authenticators - spezif. Teil
+  PoPP_Client:
+    name: PoPP_Client
+    id: productType139
+    description: Proof-of-Patient-Presence Client
+  ZT_PIP_PAP:
+    name: ZT_PIP_PAP
+    id: productType140
+    description: ZETA - PIP und PAP Service
+  Anb_ZT_PIP_PAP:
+    name: Anb_ZT_PIP_PAP
+    id: supplier55
+    description: Anbieter ZETA - PIP und PAP Service
+  ZT_Cluster:
+    name: ZT_Cluster
+    id: productType141
+    description: ZETA Guard
+  PS_ZT:
+    name: PS_ZT
+    id: productType142
+    description: PS-Schnittstelle für ZETA
+  Herst_FdV_ZT:
+    name: Herst_FdV_ZT
+    id: productType143
+    description: ZETA - Anforderungen an Hersteller eines FdV
+  Herst_TI-D_ZT:
+    name: Herst_TI-D_ZT
+    id: productType144
+    description: ZETA - Anforderungen an Hersteller von TI-Diensten
+  Anb_TI-D_ZT:
+    name: Anb_TI-D_ZT
+    id: supplier56
+    description: ZETA - Anforderungen an Anbieter von TI-Diensten
+  HCC:
+    name: HCC
+    id: productType146
+    description: Healthcare Confidential Computing
+  Anb_HCC:
+    name: Anb_HCC
+    id: supplier57
+    description: Anbieter Healthcare Confidential Computing
+  CS_VSDM_2:
+    name: CS_VSDM_2
+    id: productType147
+    description: CS-Schnittstelle für VSDM 2
+  PoPP_Modul:
+    name: PoPP_Modul
+    id: productType148
+    description: PoPP-Modul für Versichertengeräte
+  KIM-M:
+    name: KIM-M
+    id: productType149
+    description: KIM-Modul im TI-Gateway Zugangsmodul
+  Anb_TI-GW_KIM-M:
+    name: Anb_TI-GW_KIM-M
+    id: supplier58
+    description: Anbieter KIM-Modul im TI-Gateway Zugangsmodul
+  Push_Gateway:
+    name: Push_Gateway
+    id: productType150
+    description: Fachdienst PushNotification Gateway
+  Anb_Push_Gateway:
+    name: Anb_Push_Gateway
+    id: supplier59
+    description: Anbieter Fachdienst PushNotification Gateway
+  FdV_Option_PushNotification:
+    name: FdV_Option_PushNotification
+    id: productType151
+    description: allg. Afo's an ein FdV für Option PushNotification
+  Anb_Integ_PAT:
+    name: Anb_Integ_PAT
+    id: supplier60
+    description: PAT-Integrator in die Telematikinfrastruktur
+  Authenticator:
+    name: Authenticator
+    id: productType152
+    description: gematik Produkt Authenticator
+  DiPag_FD:
+    name: DiPag_FD
+    id: productType153
+    description: Digitale Patientenrechnung Fachdienst
+  Anb_DiPag_FD:
+    name: Anb_DiPag_FD
+    id: supplier61
+    description: Anbieter Digitale Patientenrechnung Fachdienst
+  DiPag_FdV:
+    name: DiPag_FdV
+    id: productType154
+    description: Digitale Patientenrechnung Frontend des Versicherten
+  NCPeH_PSA:
+    name: NCPeH_PSA
+    id: productType155
+    description: Patient Summary Land-A National Contact Point for eHealth
+  NCPeH_ePeDA:
+    name: NCPeH_ePeDA
+    id: productType156
+    description: ePrescription/eDispensation Land-A National Contact Point for eHealth
+  ePA-FdV_Option_PushNotification:
+    name: ePA-FdV_Option_PushNotification
+    id: productType157
+    description: spezif. Afo's an ePA-FdV für Option PushNotification
+  eRp-FdV_Option_PushNotification:
+    name: eRp-FdV_Option_PushNotification
+    id: productType158
+    description: spezif. Afo's an E-Rezept-FdV für Option PushNotification
+  TI-M_Hl_Client_Pro:
+    name: TI-M_Hl_Client_Pro
+    id: productType159
+    description: TI-Messenger Headless Client Pro
+  Anb_TI-M_ePA:
+    name: Anb_TI-M_ePA
+    id: supplier62
+    description: Anbieter TI-Messenger ePA
+  Anb_TI-M_Pro:
+    name: Anb_TI-M_Pro
+    id: supplier63
+    description: Anbieter TI-Messenger Pro
+  Herst_KIM_iCM:
+    name: Herst_KIM_iCM
+    id: supplier64
+    description: Anforderungen an Hersteller eines integrierten Clientmoduls für KIM
+  Anb_TI-M:
+    name: Anb_TI-M
+    id: supplier65
+    description: allg. Afo's an alle Anbieter von TI-Messengern
+  EPA-Audit-Service:
+    name: EPA-Audit-Service
+    id: productType160
+    description: EPA-Audit-Service
+  EPA-Medication-Service:
+    name: EPA-Medication-Service
+    id: productType161
+    description: EPA-Medication-Service
+  EPA-Patient-Service:
+    name: EPA-Patient-Service
+    id: productType162
+    description: EPA-Patient-Service
+  EPA-MHD-Service:
+    name: EPA-MHD-Service
+    id: productType163
+    description: EPA-MHD-Service
+  Gesundheits-App:
+    name: Gesundheits-App
+    id: productType164
+    description: Gesundheits-App des Versicherten
+  EPA-Device-Management:
+    name: EPA-Device-Management
+    id: productType166
+    description: EPA-Device-Management
+  EPA-Authorization-Service:
+    name: EPA-Authorization-Service
+    id: productType167
+    description: EPA-Authorization-Service
+  EPA-Data-Submission-Service:
+    name: EPA-Data-Submission-Service
+    id: productType168
+    description: EPA-Data-Submission-Service
+  IDP_FedMaster_Regine:
+    name: IDP_FedMaster_Regine
+    id: productType174
+    description: IDP Federation Master Regine
+  Anb_IDP_FedMaster_Regine:
+    name: Anb_IDP_FedMaster_Regine
+    id: supplier66
+    description: Anbieter IDP Federation Master Regine
+  Anb_ZT_firewall:
+    name: Anb_ZT_firewall
+    id: supplier67
+    description: Anbieter ZETA firewall
+  Anb_ZT_gat_ing_egr:
+    name: Anb_ZT_gat_ing_egr
+    id: supplier68
+    description: Anbieter ZETA gateway or ingress egress
+  Anb_ZT_hsm_proxy:
+    name: Anb_ZT_hsm_proxy
+    id: supplier69
+    description: Anbieter ZETA hsm proxy
+  Anb_ZT_loc_art_reg:
+    name: Anb_ZT_loc_art_reg
+    id: supplier70
+    description: Anbieter ZETA local artifact registry cache
+  Anb_ZT_Datenbank:
+    name: Anb_ZT_Datenbank
+    id: supplier71
+    description: Anbieter ZETA pdp Datenbank
+  Anb_ZT_serv_mesh:
+    name: Anb_ZT_serv_mesh
+    id: supplier72
+    description: Anbieter ZETA service mesh
+  Anb_ZT_adm_contr:
+    name: Anb_ZT_adm_contr
+    id: supplier73
+    description: Anbieter ZETA admission controller
+  TI-Flow_FD:
+    name: TI-Flow_FD
+    id: productType175
+    description: TI-Flow-Fachdienst
+  Gesundheits-App_Option_PushNotification:
+    name: Gesundheits-App_Option_PushNotification
+    id: productType176
+    description: spezif. Afos an Gesundheits-App für Option PushNotification
+  Anb_TI-Flow_FD:
+    name: Anb_TI-Flow_FD
+    id: supplier74
+    description: Anbieter TI-Flow-Fachdienst
+testproc_to_id:
+  Produkttest:
+    id: testProcedurePT03
+    name: 'funkt. Eignung: Test Produkt/FA'
+  Anbietergutachten:
+    id: testProcedureAN05
+    name: 'Sich.techn. Eignung: Gutachten (Anbieter)'
+  Herstellererklärung:
+    id: testProcedurePT02
+    name: 'funkt. Eignung: Herstellererklärung'
+  Produktgutachten:
+    id: testProcedurePT27
+    name: 'Sich.techn. Eignung: Produktgutachten'
+  Konformitätsbestätigung:
+    id: testProcedurePT28
+    name: 'funkt. Eignung: Konformitätsbestätigung'
+  testProcedureAN08:
+    id: testProcedureAN08
+    name: 'funkt. Eignung: Test Produkt/FA (Anwendung)'
+  testProcedureAN07:
+    id: testProcedureAN07
+    name: 'funkt. Eignung: Anbietererklärung'
+  testProcedureAN01:
+    id: testProcedureAN01
+    name: 'organ./betriebl. Eignung: Anbietererklärung'
+  testProcedureAN02:
+    id: testProcedureAN02
+    name: 'organ./betriebl. Eignung: Prozessprüfung'
+  testProcedureAN03:
+    id: testProcedureAN03
+    name: 'organ./betriebl. Eignung: Betriebshandbuch'
+  testProcedureAN13:
+    id: testProcedureAN13
+    name: 'organ./betriebl. Eignung: Test'
+  testProcedureAN04:
+    id: testProcedureAN04
+    name: 'Sich.techn. Eignung: Anbietererklärung'
+  testProcedureAN05:
+    id: testProcedureAN05
+    name: 'Sich.techn. Eignung: Gutachten (Anbieter)'
+  testProcedureAN06:
+    id: testProcedureAN06
+    name: 'Sich.techn. Eignung: GutachtenCMS'
+  testProcedureAN11:
+    id: testProcedureAN11
+    name: 'organ./betriebl. Eignung: Herstellererklärung'
+  testProcedureAN12:
+    id: testProcedureAN12
+    name: 'Sich.techn. Eignung: Herstellererklärung (Betrieb)'
+  testProcedurePT03:
+    id: testProcedurePT03
+    name: 'funkt. Eignung: Test Produkt/FA'
+  testProcedurePT02:
+    id: testProcedurePT02
+    name: 'funkt. Eignung: Herstellererklärung'
+  testProcedurePT26:
+    id: testProcedurePT26
+    name: 'funkt. Eignung: Personalisierungsvalidierung'
+  testProcedurePT28:
+    id: testProcedurePT28
+    name: 'funkt. Eignung: Konformitätsbestätigung'
+  testProcedurePT04:
+    id: testProcedurePT04
+    name: 'Sich.techn. Eignung: Bestätigung'
+  testProcedurePT07:
+    id: testProcedurePT07
+    name: 'Sich.techn. Eignung: Konformitätserklärung'
+  testProcedurePT08:
+    id: testProcedurePT08
+    name: 'Sich.techn. Eignung: Herstellererklärung'
+  testProcedurePT09:
+    id: testProcedurePT09
+    name: 'Sich.techn. Eignung: Zertifizierung nach Technischer Richtlinie'
+  testProcedurePT06:
+    id: testProcedurePT06
+    name: 'Sich.techn. Eignung: Gutachten'
+  testProcedurePT30:
+    id: testProcedurePT30
+    name: 'Sich.techn. Eignung: Gutachten Softwareentwicklung'
+  testProcedurePT27:
+    id: testProcedurePT27
+    name: 'Sich.techn. Eignung: Produktgutachten'
+  testProcedurePT05:
+    id: testProcedurePT05
+    name: 'Sich.techn. Eignung: CC-Evaluierung'
+  testProcedurePT29:
+    id: testProcedurePT29
+    name: 'Sich.techn. Eignung: Prüfung durch CC-Prüfstelle'
+  testProcedurePT31:
+    id: testProcedurePT31
+    name: 'Sich.techn. Eignung: Beschleunigte Sicherheitszertifizierung'
+  testProcedure01:
+    id: testProcedure01
+    name: 'Sich.techn. Eignung: Prozessprüfung'
+  testProcedure02:
+    id: testProcedure02
+    name: 'Sich.techn. Eignung: Dokumentenprüfung'
+  testProcedurePT01:
+    id: testProcedurePT01
+    name: 'elektr/mech/physik. Eignung: elektrophysik / mechan. Prüfung'
+  testProcedurePT11:
+    id: testProcedurePT11
+    name: nicht prüfrelevant
+default_testproc:
+  DEFAULT: Produkttest
+  EPA-PS: Konformitätsbestätigung
+  EPA-PS-APO: Konformitätsbestätigung
+  ERP-PS-AB: Konformitätsbestätigung
+  ERP-PS-VER: Konformitätsbestätigung
+  PS_ePA: Konformitätsbestätigung
+  PS_E-Rezept_abgebend: Konformitätsbestätigung
+  PS_E-Rezept_verordnend: Konformitätsbestätigung
