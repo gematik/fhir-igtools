@@ -18,6 +18,6 @@
     - PS_ePA_LabReport_Consumer
 
 
-## Release 1.0.0
+## 1.0.0
 
 - Initial release of REQ Tools. This version provides the initial set of features for requirements extraction and management.
