@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <enumeration>
-    <option hidden="true" id="productType02" name="HSM-B" sortOrder="0"/>
+    <option description="! nicht verwenden, wird/ist deaktivert ! HSM-B" hidden="true" id="productType02" name="HSM-B" sortOrder="0"/>
     <option description="mobiles Kartenterminal" id="productType06" name="MobKT" sortOrder="1"/>
     <option description="eHealth-Kartenterminal" id="productType07" name="KT" sortOrder="2"/>
     <option description="OCSP-Proxy" id="productType09" name="OCSP-Proxy" sortOrder="3"/>
@@ -97,8 +97,8 @@
     <option description="! nicht verwenden, wird/ist deaktivert ! Anbieter eines KTR-Consumers" hidden="true" id="supplier16" name="Anb_KTR-Consumer" sortOrder="94"/>
     <option description="Signaturdienst" id="productType83" name="SigD" sortOrder="95"/>
     <option description="Anbieter eines Signaturdienstes" id="supplier17" name="Anb_SigD" sortOrder="96"/>
-    <option description="ePA-Signaturdienst" id="productType84" name="SGD_ePA" sortOrder="97"/>
-    <option description="Anbieter eines ePA-Signaturdienstes" id="supplier18" name="Anb_SGD_ePA" sortOrder="98"/>
+    <option description="! nicht verwenden, wird/ist deaktivert ! ePA-Signaturdienst" hidden="true" id="productType84" name="SGD_ePA" sortOrder="97"/>
+    <option description="! nicht verwenden, wird/ist deaktivert ! Anbieter eines ePA-Signaturdienstes" hidden="true" id="supplier18" name="Anb_SGD_ePA" sortOrder="98"/>
     <option description="! nicht verwenden, wird/ist deaktivert ! Betriebsdatenerfassung" hidden="true" id="system13" name="Betriebsdatenerfassung" sortOrder="99"/>
     <option description="! nicht verwenden, wird/ist deaktivert !" hidden="true" id="productType85" name="WHD_ePA" sortOrder="100"/>
     <option description="! nicht verwenden, wird/ist deaktivert !" hidden="true" id="supplier19" name="Anb_WHD_ePA" sortOrder="101"/>
@@ -128,8 +128,8 @@
     <option description="! nicht verwenden, wird/ist deaktivert !" hidden="true" id="productType101" name="VSDD_nonGKV" sortOrder="125"/>
     <option description="! nicht verwenden, wird/ist deaktivert !" hidden="true" id="productType102" name="CMS_nonGKV" sortOrder="126"/>
     <option description="! nicht verwenden, wird/ist deaktivert !" hidden="true" id="supplier30" name="Anb_FD_VSDM_nonGKV" sortOrder="127"/>
-    <option description="Apotheken-Verzeichnisdienst" hidden="true" id="productType103" name="APOVZD" sortOrder="128"/>
-    <option description="Anbieter des Apotheken-Verzeichnisdienstes" hidden="true" id="supplier31" name="Anb_APOVZD" sortOrder="129"/>
+    <option description="! nicht verwenden, wird/ist deaktivert ! Apotheken-Verzeichnisdienst" hidden="true" id="productType103" name="APOVZD" sortOrder="128"/>
+    <option description="! nicht verwenden, wird/ist deaktivert ! Anbieter des Apotheken-Verzeichnisdienstes" hidden="true" id="supplier31" name="Anb_APOVZD" sortOrder="129"/>
     <option description="KIM-Clientmodul, im PS integriert" id="productType104" name="KIM-iCM" sortOrder="130"/>
     <option description="Highspeed Konnektor (HSK)" id="productType105" name="Konnektor Highspeed" sortOrder="131"/>
     <option description="Anbieter eines Highspeed Konnektors (HSK)" id="supplier32" name="Anb_Konn_Highspeed" sortOrder="132"/>
@@ -201,8 +201,8 @@
     <option description="Anbieter Healthcare Confidential Computing" id="supplier57" name="Anb_HCC" sortOrder="198"/>
     <option description="CS-Schnittstelle für VSDM 2" id="productType147" name="CS_VSDM_2" sortOrder="199"/>
     <option description="PoPP-Modul für Versichertengeräte" id="productType148" name="PoPP_Modul" sortOrder="200"/>
-    <option description="KIM-Modul im TI-Gateway Zugangsmodul" id="productType149" name="KIM-M" sortOrder="201"/>
-    <option description="Anbieter KIM-Modul im TI-Gateway Zugangsmodul" id="supplier58" name="Anb_TI-GW_KIM-M" sortOrder="202"/>
+    <option description="! nicht verwenden, wird/ist deaktivert ! KIM-Modul im TI-Gateway Zugangsmodul" hidden="true" id="productType149" name="KIM-M" sortOrder="201"/>
+    <option description="! nicht verwenden, wird/ist deaktivert ! Anbieter KIM-Modul im TI-Gateway Zugangsmodul" hidden="true" id="supplier58" name="Anb_TI-GW_KIM-M" sortOrder="202"/>
     <option description="Fachdienst PushNotification Gateway" id="productType150" name="Push_Gateway" sortOrder="203"/>
     <option description="Anbieter Fachdienst PushNotification Gateway" id="supplier59" name="Anb_Push_Gateway" sortOrder="204"/>
     <option description="allg. Afo's an ein FdV für Option PushNotification" id="productType151" name="FdV_Option_PushNotification" sortOrder="205"/>
@@ -246,4 +246,19 @@
     <option description="TI-Flow-Fachdienst" id="productType175" name="TI-Flow_FD" sortOrder="243"/>
     <option description="spezif. Afos an Gesundheits-App für Option PushNotification" id="productType176" name="Gesundheits-App_Option_PushNotification" sortOrder="244"/>
     <option description="Anbieter TI-Flow-Fachdienst" id="supplier74" name="Anb_TI-Flow_FD" sortOrder="245"/>
+    <option description="Anbieter des TI-Help-Desk" id="supplier75" name="Anb_TI-HD" sortOrder="246"/>
+    <option description="Anforderungen an Hersteller einer App" id="supplier76" name="Herst_App" sortOrder="247"/>
+    <option description="Anforderungen an App-Hersteller für die Option Push Notification Gateway" id="supplier77" name="Herst_App_Option_PGW" sortOrder="248"/>
+    <option description="Krankenhausinformationssystem" id="productType177" name="KIS" sortOrder="249"/>
+    <option description="Anbieter Krankenhausinformationssystem" id="supplier78" name="Anb_KIS" sortOrder="250"/>
+    <option description="PS-Schnittstelle für TI-Flow/verordnendes System" id="productType178" name="PS_TI-Flow_verordnend" sortOrder="251"/>
+    <option description="PS-Schnittstelle für TI-Flow/Apotheke" id="productType179" name="PS_TI-Flow_Apotheke" sortOrder="252"/>
+    <option description="PS-Schnittstelle für TI-Flow/Pflege" id="productType180" name="PS_TI-Flow_Pflege" sortOrder="253"/>
+    <option description="CS-Schnittstelle für TI-Flow/Kostenträger" id="productType181" name="CS_TI-Flow_KTR" sortOrder="254"/>
+    <option description="PS-Schnittstelle für E-Rezept/Pflege" id="productType182" name="PS_E-Rezept_Pflege" sortOrder="255"/>
+    <option description="TI-Flow-Frontend des Versicherten" id="productType183" name="TI-Flow_FdV" sortOrder="256"/>
+    <option description="Anbieter TI-Flow-Frontend des Versicherten" id="supplier79" name="Anb_TI-Flow_FdV" sortOrder="257"/>
+    <option description="zentrales Anbieterprofil für alle Anbieter des Betriebslevels 1" id="supplier80" name="Anbieterprofil_BL-1" sortOrder="258"/>
+    <option description="PS-Schnittstelle für ePA: Laborbefund erzeugende Systeme" id="productType184" name="PS_ePA_LabReport_Creator" sortOrder="259"/>
+    <option description="PS-Schnittstelle für ePA: Laborbefund verarbeitende Systeme" id="productType185" name="PS_ePA_LabReport_Consumer" sortOrder="260"/>
 </enumeration>
