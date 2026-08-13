@@ -374,14 +374,6 @@ actor_to_product:
     name: Anb_SigD
     id: supplier17
     description: Anbieter eines Signaturdienstes
-  SGD_ePA:
-    name: SGD_ePA
-    id: productType84
-    description: ePA-Signaturdienst
-  Anb_SGD_ePA:
-    name: Anb_SGD_ePA
-    id: supplier18
-    description: Anbieter eines ePA-Signaturdienstes
   Anb_AS:
     name: Anb_AS
     id: supplier21
@@ -683,14 +675,6 @@ actor_to_product:
     name: PoPP_Modul
     id: productType148
     description: PoPP-Modul für Versichertengeräte
-  KIM-M:
-    name: KIM-M
-    id: productType149
-    description: KIM-Modul im TI-Gateway Zugangsmodul
-  Anb_TI-GW_KIM-M:
-    name: Anb_TI-GW_KIM-M
-    id: supplier58
-    description: Anbieter KIM-Modul im TI-Gateway Zugangsmodul
   Push_Gateway:
     name: Push_Gateway
     id: productType150
@@ -839,6 +823,67 @@ actor_to_product:
     name: Anb_TI-Flow_FD
     id: supplier74
     description: Anbieter TI-Flow-Fachdienst
+  Anb_TI-HD:
+    name: Anb_TI-HD
+    id: supplier75
+    description: Anbieter des TI-Help-Desk
+  Herst_App:
+    name: Herst_App
+    id: supplier76
+    description: Anforderungen an Hersteller einer App
+  Herst_App_Option_PGW:
+    name: Herst_App_Option_PGW
+    id: supplier77
+    description: Anforderungen an App-Hersteller für die Option Push Notification
+      Gateway
+  KIS:
+    name: KIS
+    id: productType177
+    description: Krankenhausinformationssystem
+  Anb_KIS:
+    name: Anb_KIS
+    id: supplier78
+    description: Anbieter Krankenhausinformationssystem
+  PS_TI-Flow_verordnend:
+    name: PS_TI-Flow_verordnend
+    id: productType178
+    description: PS-Schnittstelle für TI-Flow/verordnendes System
+  PS_TI-Flow_Apotheke:
+    name: PS_TI-Flow_Apotheke
+    id: productType179
+    description: PS-Schnittstelle für TI-Flow/Apotheke
+  PS_TI-Flow_Pflege:
+    name: PS_TI-Flow_Pflege
+    id: productType180
+    description: PS-Schnittstelle für TI-Flow/Pflege
+  CS_TI-Flow_KTR:
+    name: CS_TI-Flow_KTR
+    id: productType181
+    description: CS-Schnittstelle für TI-Flow/Kostenträger
+  PS_E-Rezept_Pflege:
+    name: PS_E-Rezept_Pflege
+    id: productType182
+    description: PS-Schnittstelle für E-Rezept/Pflege
+  TI-Flow_FdV:
+    name: TI-Flow_FdV
+    id: productType183
+    description: TI-Flow-Frontend des Versicherten
+  Anb_TI-Flow_FdV:
+    name: Anb_TI-Flow_FdV
+    id: supplier79
+    description: Anbieter TI-Flow-Frontend des Versicherten
+  Anbieterprofil_BL-1:
+    name: Anbieterprofil_BL-1
+    id: supplier80
+    description: zentrales Anbieterprofil für alle Anbieter des Betriebslevels 1
+  PS_ePA_LabReport_Creator:
+    name: PS_ePA_LabReport_Creator
+    id: productType184
+    description: 'PS-Schnittstelle für ePA: Laborbefund erzeugende Systeme'
+  PS_ePA_LabReport_Consumer:
+    name: PS_ePA_LabReport_Consumer
+    id: productType185
+    description: 'PS-Schnittstelle für ePA: Laborbefund verarbeitende Systeme'
 testproc_to_id:
   Produkttest:
     id: testProcedurePT03
