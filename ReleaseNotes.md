@@ -2,6 +2,11 @@
 
 # Release Notes REQ TOOLS
 
+## 1.0.2
+- Add product types:
+    - EPA-Query-Responder
+    - Drittanbieter-App
+
 ## 1.0.1
 
 - Add product types:

@@ -884,6 +884,14 @@ actor_to_product:
     name: PS_ePA_LabReport_Consumer
     id: productType185
     description: 'PS-Schnittstelle für ePA: Laborbefund verarbeitende Systeme'
+  EPA-Query-Responder:
+    name: EPA-Query-Responder
+    id: productType186
+    description: EPA-Query-Responder
+  Drittanbieter-App:
+    name: Drittanbieter-App
+    id: productType187
+    description: Drittanbieter-App
 testproc_to_id:
   Produkttest:
     id: testProcedurePT03
