@@ -261,4 +261,6 @@
     <option description="zentrales Anbieterprofil für alle Anbieter des Betriebslevels 1" id="supplier80" name="Anbieterprofil_BL-1" sortOrder="258"/>
     <option description="PS-Schnittstelle für ePA: Laborbefund erzeugende Systeme" id="productType184" name="PS_ePA_LabReport_Creator" sortOrder="259"/>
     <option description="PS-Schnittstelle für ePA: Laborbefund verarbeitende Systeme" id="productType185" name="PS_ePA_LabReport_Consumer" sortOrder="260"/>
+    <option description="EPA-Query-Responder" id="productType186" name="EPA-Query-Responder" sortOrder="261"/>
+    <option description="Drittanbieter-App" id="productType187" name="Drittanbieter-App" sortOrder="262"/>
 </enumeration>
