@@ -83,6 +83,8 @@ def convert_polarion_date_export(value):
 class PolarionExporter:
     EXPORT_BASE_FILENAME = "polarion-requirements"
     ALLOWED_CONFORMANCE = ["SHALL", "SHALL NOT", "MAY", "SHOULD", "SHOULD NOT"]
+    # Temporary workaround until Polarion corrects its AFO-level mapping.
+    CONFORMANCE_EXPORT_OVERRIDES = {"SHALL NOT": "SHOULD NOT", "SHOULD NOT": "SHALL NOT"}
 
     def __init__(self, config, ig_config, version=None, default_test_procedure=None):
         self.config = config
@@ -213,7 +215,9 @@ class PolarionExporter:
             req_export["version"] = req.version
             req_export["status"] = req.status
             req_export["text"] = req.text
-            req_export["conformance"] = req.conformance
+            req_export["conformance"] = self.CONFORMANCE_EXPORT_OVERRIDES.get(
+                req.conformance, req.conformance
+            )
             req_export["characteristics"] = product_types
             req_export["link"] = utils.convert_to_ig_requirement_link(
                 base=self.ig_config.link,

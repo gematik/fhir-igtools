@@ -36,14 +36,26 @@ def mock_ig_config():
     return config
 
 
-def test_polarion_export_writes_json_file(tmp_path, mock_config, mock_ig_config):
+@pytest.mark.parametrize(
+    ("conformance", "exported_conformance"),
+    [
+        ("SHALL", "SHALL"),
+        ("SHALL NOT", "SHOULD NOT"),
+        ("SHOULD", "SHOULD"),
+        ("SHOULD NOT", "SHALL NOT"),
+        ("MAY", "MAY"),
+    ],
+)
+def test_polarion_export_writes_json_file(
+    tmp_path, mock_config, mock_ig_config, conformance, exported_conformance
+):
 
     req = Requirement(
         key="REQ-1",
         title="Exported requirement",
         actor="ACTOR",
         version=0,
-        conformance="SHALL",
+        conformance=conformance,
         status="ACTIVE",
         source="file.md",
         test_procedures={"ACTOR": ["AN01"]},
@@ -91,7 +103,8 @@ def test_polarion_export_writes_json_file(tmp_path, mock_config, mock_ig_config)
         assert data["requirements"][0]["title"] == "Exported requirement"
         assert data["requirements"][0]["version"] == 0
         assert data["requirements"][0]["status"] == "ACTIVE"
-        assert data["requirements"][0]["conformance"] == "SHALL"
+        assert data["requirements"][0]["conformance"] == exported_conformance
+        assert req.conformance == conformance
         assert (
             data["requirements"][0]["link"]
             == "https://www.example.com/1.0.0/file.html#REQ-1"
