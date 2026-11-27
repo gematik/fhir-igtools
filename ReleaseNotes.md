@@ -2,6 +2,10 @@
 
 # Release Notes REQ TOOLS
 
+## 1.0.3
+
+- Temporarily swap `SHALL NOT` and `SHOULD NOT` in the Polarion JSON export to compensate for the reversed AFO-level mapping in Polarion.
+
 ## 1.0.2
 - Add product types:
     - EPA-Query-Responder
